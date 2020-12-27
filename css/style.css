@@ -1,0 +1,246 @@
+/* start main rules */
+body {
+	height: 3000px;
+}
+.container {
+	width: 1170px;
+	margin: auto;
+}
+.clearfix {
+	clear: both;
+}
+/* end main rules */
+
+/* start Header */
+.header .slider {
+	background-color: whitesmoke;
+	height: 700px;
+	background-image: url('../images/slider.jpg');
+	background-size: cover; /*css3*/
+}
+.header .slider .intro {
+	padding-top: 350px;
+	text-align: center;
+	color: #fff;
+}
+.header .slider .intro h2 {
+	margin: 0 auto;
+	font-size: 50px;
+	width: 560px;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	padding: 5px 0;
+}
+.header .slider .intro button {
+	background: none;
+	color: white;
+	margin-top: 30px;
+	font-size: 21px;
+	border: 2px solid #fff;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+.header .slider .intro button:hover {
+	color: #09793896;
+	border: 2px solid#066d3194;
+}
+.header .slider .container {
+}
+
+.header .navbar {
+	background-color: #252f31;
+	color: #fff;
+	overflow: hidden;
+}
+
+.header .navbar h2 {
+	float: left;
+	text-transform: uppercase;
+}
+.header .navbar h2 span {
+	color: #2ecc71;
+}
+
+.header .navbar ul {
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	float: right;
+}
+.header .navbar ul li {
+	float: left;
+	padding: 10px;
+}
+.header .navbar ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+	color: #30b576;
+}
+/* end Header */
+/* start features */
+.features {
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.features .feat {
+	float: left;
+	width: 33.3333%;
+	height: 150px;
+}
+.features .feat h2 {
+	text-transform: uppercase;
+	color: #333;
+}
+.features .feat p {
+	line-height: 1.7;
+	color: #888;
+}
+/* end features */
+
+/* start About Me*/
+.about-me {
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+.about-me .image {
+	float: left;
+	width: 40%;
+}
+.about-me .image img {
+	width: 100%;
+}
+.about-me .info {
+	float: left;
+	width: 60%;
+}
+.about-me .info h2 {
+	margin: 40px 0px 20px 40px;
+	color: #333;
+}
+.about-me .info > p {
+	margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type {
+	margin-top: 25px;
+}
+.about-me .info p {
+	line-height: 1.7;
+	color: #555;
+}
+.about-me .info .hobbies {
+	overflow: hidden;
+	margin: 40px 0 0 40px;
+}
+.about-me .info .hobbies .content {
+	float: left;
+	width: 50%;
+	height: 100%;
+	min-height: 100px;
+	overflow: hidden;
+}
+.about-me .info .hobbies .content h3 {
+	color: #333;
+}
+.about-me .info .hobbies .content .icon {
+	float: left;
+	width: 13%;
+	margin-right: 2%;
+}
+.about-me .info .hobbies .content .icon img {
+	max-width: 100%;
+	margin: 15px 9px 0 0;
+}
+.about-me .info .hobbies .content .text {
+	float: left;
+	width: 85%;
+}
+/* End About Me*/
+
+/*start my skills*/
+.my-skills {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress {
+	float: left;
+	width: 50%;
+}
+/*end my skills*/
+/*start resume*/
+.resume {
+	background-color: #f2f2f2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+/*end resume*/
+/*start my education*/
+.my-education {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.my-education .main,
+.my-education .exp {
+	float: left;
+	width: 50%;
+}
+/*end my education*/
+/*start testimonials*/
+.testimonials {
+	background-color: #f2f2f2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+/*end testimonials*/
+/*start portfolio*/
+.portfolio {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.portfolio .our-work {
+	overflow: hidden;
+}
+.portfolio .our-work > div {
+	float: left;
+	width: 33.33333%;
+	margin-bottom: 10px;
+}
+.portfolio .our-work > div img {
+	width: 92%;
+	margin: 10px;
+}
+/*end portfolio*/
+/*start contact me */
+.contact {
+	background-color: #252f31;
+	overflow: hidden;
+}
+.contact h2 {
+	color: white;
+}
+.contact p {
+	color: #7a8284;
+}
+.contact .info,
+.contact .form {
+	width: 50%;
+	float: left;
+}
+/*end contact me */
+/*start footer*/
+.footer {
+	background-color: #191e22;
+	color: #818788;
+	text-align: center;
+	padding: 20px 0;
+}
+/*end footer*/
